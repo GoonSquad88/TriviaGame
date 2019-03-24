@@ -1,0 +1,18 @@
+body {
+    background:grey;
+}
+#trivia-game {
+    background: blue;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+#wrapper2 {
+    background: blue;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+#start-trivia {
+    background: grey;
+}
