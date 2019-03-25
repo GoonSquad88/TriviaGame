@@ -1,0 +1,15 @@
+body {
+    background-image: url(bigwillow.jpeg);
+}
+#trivia-game {
+    background: rgb(234, 234, 241);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+#wrapper2 {
+    background: rgb(234, 234, 241);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
