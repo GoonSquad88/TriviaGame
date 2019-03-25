@@ -1,18 +1,15 @@
 body {
-    background:grey;
+    background-image: url(bigwillow.jpeg);
 }
 #trivia-game {
-    background: blue;
+    background: rgb(234, 234, 241);
     text-align: center;
     padding: 20px;
     margin: 20px;
 }
 #wrapper2 {
-    background: blue;
+    background: rgb(234, 234, 241);
     text-align: center;
     padding: 20px;
     margin: 20px;
-}
-#start-trivia {
-    background: grey;
 }

@@ -1,41 +1,41 @@
 var trivia = [
     {
-        question: "q",
+        question: "The most expensive bike in the world is a Ducati?",
+        answers: ["True", "False"],
+        answer: "False",
+    },
+    {
+        question: "The most expensive bike in the world cost 11 million dollars",
         answers: ["True", "False"],
         answer: "True",
     },
     {
-        question: "q",
-        answers: ["True", "False"],
-        answer: "False",
-    },
-    {
-        question: "q",
+        question: "The fastest motorcyle in the world can go 420 mph",
         answers: ["True", "False"],
         answer: "True",
     },
     {
-        question: "q",
+        question: "With the right conditions, motorcycles can lean up to 50 degrees when turning",
         answers: ["True", "False"],
         answer: "False",
     },
     {
-        question: "q",
+        question: "Motorcycles cannot ride in the rain",
         answers: ["True", "False"],
         answer: "False",
     },
     {
-        question: "q",
+        question: "2 stroke dirtbikes are more reliable and durable than 4 stroke dirtbikes",
         answers: ["True", "False"],
         answer: "False",
     },
     {
-        question: "q",
+        question: "California is the only state that legally allows lane splitting for motorcycles",
         answers: ["True", "False"],
         answer: "True",
     },
     {
-        question: "q",
+        question: "Regarded by many motorcyclist, Ducati is the 'Ferrari of Motorcyles'",
         answers: ["True", "False"],
         answer: "True",
     }
@@ -49,7 +49,7 @@ $("#start-trivia").on("click", function () {
 var gameLogic = {
     correctAnswer: 0,
     wrongAnswer: 0,
-    time: 10,
+    time: 120,
     countdown: function () {
         gameLogic.time--;
         $("#time").html(gameLogic.time);
